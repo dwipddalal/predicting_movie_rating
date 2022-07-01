@@ -14,16 +14,17 @@ I have processed the dataset on the basis of some assumptions that is:
 
 Here I have made four models made by taking different columns for different models:                    
 -> 1st model: using the columns of categorical and numerical values.        
--> 2nd model: using the columns with more than one categorical value in each of their cells, i.e., using 'genres' and 'credits'.
--> 3rd model: using the 'overview' column.
--> 4th model: using the 'keywords' column.
+-> 2nd model: using the columns with more than one categorical value in each of their cells, i.e., using 'genres' and 'credits'.                                       
+-> 3rd model: using the 'overview' column.                            
+-> 4th model: using the 'keywords' column.                                                 
 
 And then finally perform integrated stacking on these four models so formed.
 
 ## Nomenclature of the files:
-Analysis.ipynb : contains a through analysis of the dataset
-Avg_rating_pred : contains the models written in the above-mentioned order
-Integrated stacking: contains the stacked model and the class to perform prediction on the unseen data input
+Analysis.ipynb : contains a through analysis of the dataset                                   
+Avg_rating_pred : contains the models written in the above-mentioned order                              
+Integrated stacking: contains the stacked model and the class to perform prediction on the unseen data input                                               
+
 ## Model Architecture 
 ![model](https://user-images.githubusercontent.com/91228207/176964676-390de262-2018-4c94-8730-0da94e0974a3.png)
 
